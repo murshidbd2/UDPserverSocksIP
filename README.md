@@ -8,7 +8,7 @@ Admin Whatsapp no: +8801301099152
 
 UDPserver Binary by Mbtunnel :https://wa.link/fykuuz
 
-UDPclient Android SocksIP :point_right: [AQUI](https://play.google.com/store/apps/details?id=com.newtoolsworks.sockstunnel)
+UDPclient Android SocksIP :point_right: [APP LINK](https://play.google.com/store/apps/details?id=com.newtoolsworks.sockstunnel)
 
 para colaborar con la traduccion en su idioma, contactar con :point_right: [@MbTunnel](https://t.me/murshidbd)
 

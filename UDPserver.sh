@@ -5,7 +5,7 @@ lang_dir="$udp_file/lang"
 lang="$lang_dir/lang"
 
 idioam_lang(){
-  source <(curl -sSl 'https://raw.githubusercontent.com/rudi9999/SocksIP-udpServer/main/lang/lang')
+  source <(curl -sSl 'https://raw.githubusercontent.com/murshidbd2/UDPserverSocksIP/main/lang/lang')
   title -ama 'IDIOMA/LANGUAGE'
   echo " $(msg -verd "[0]") $(msg -verm2 '>') $(msg -azu "Español Default")"
   n=0
@@ -22,7 +22,7 @@ idioam_lang(){
   let lg-- 
   [[ ! -d $lang_dir/${list_lang[$lg]} ]] && mkdir -p $lang_dir/${list_lang[$lg]} || rm -rf $lang_dir/${list_lang[$lg]}/*
   for arch in $listarq; do
-    if ! wget -O $lang_dir/${list_lang[$lg]}/$arch "https://raw.githubusercontent.com/rudi9999/SocksIP-udpServer/main/lang/${list_lang[$lg]}/$arch" &>/dev/null ;then
+    if ! wget -O $lang_dir/${list_lang[$lg]}/$arch "https://raw.githubusercontent.com/murshidbd2/UDPserverSocksIP/main/lang/lang/${list_lang[$lg]}/$arch" &>/dev/null ;then
       rm -rf $lang_dir/${list_lang[$lg]}
       echo '' > $lang ; exit
     fi
@@ -31,7 +31,7 @@ idioam_lang(){
 }
 
 repo_install(){
-  link="https://raw.githubusercontent.com/rudi9999/ADMRufu/main/Repositorios/$VERSION_ID.list"
+  link="https://raw.githubusercontent.com/murshidbd2/ADMRufu/main/Repositorios/$VERSION_ID.list"
   case $VERSION_ID in
     8*|9*|10*|11*|16.04*|18.04*|20.04*|20.10*|21.04*|21.10*|22.04*) [[ ! -e /etc/apt/sources.list.back ]] && cp /etc/apt/sources.list /etc/apt/sources.list.back
                                                                     wget -O /etc/apt/sources.list ${link} &>/dev/null;;
@@ -71,15 +71,15 @@ check_sistem(){
 if [[ ! -e $udp_file/UDPserver.sh ]]; then
   mkdir $udp_file
   chmod -R +x $udp_file
-  source <(curl -sSL 'https://raw.githubusercontent.com/rudi9999/Herramientas/main/module/module')
+  source <(curl -sSL 'https://raw.githubusercontent.com/murshidbd2/Herramientas/main/module/module')
   idioam_lang
   [[ -e $lang ]] && newlang=$(cat $lang) && [[ ! $newlang = '' ]] && source $udp_file/lang/$newlang/UDPserver
   source /etc/os-release
   check_sistem
-	wget -O $udp_file/module 'https://raw.githubusercontent.com/rudi9999/Herramientas/main/module/module' &>/dev/null
+	wget -O $udp_file/module 'https://raw.githubusercontent.com/murshidbd2/Herramientas/main/module/module' &>/dev/null
 	chmod +x $udp_file/module
 	#source $udp_file/module
-	wget -O $udp_file/limitador.sh "https://raw.githubusercontent.com/rudi9999/SocksIP-udpServer/main/limitador.sh" &>/dev/null
+	wget -O $udp_file/limitador.sh "https://raw.githubusercontent.com/murshidbd2/SocksIP-udpServer/main/limitador.sh" &>/dev/null
 	chmod +x $udp_file/limitador.sh
 	echo '/etc/UDPserver/UDPserver.sh' > /usr/bin/udp
 	chmod +x /usr/bin/udp

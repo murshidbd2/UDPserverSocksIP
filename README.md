@@ -1,4 +1,4 @@
-# SCRIPT UDPSERVER BY [@Raju](https://wa.link/fykuuz)
+# SCRIPT UDPSERVER BY [@Raju Mbtunnel Admin](https://wa.link/fykuuz)
 
 ![Selección_022](https://user-images.githubusercontent.com/67137156/206889505-370daa1a-3b70-4b7c-9cc2-2f703bb19b88.png)
 

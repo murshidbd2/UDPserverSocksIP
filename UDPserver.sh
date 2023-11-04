@@ -863,8 +863,8 @@ quit_exclude(){
 }
 
 menu_udp(){
-	title "${a1:-SCRIPT DE CONFIGRACION UDPserver} BY @Rufu99"
-	print_center -ama 'UDPserver Binary by team newtoolsworks'
+	title "${a1:-SCRIPT DE CONFIGRACION UDPserver} BY admin@mbtunnel.com"
+	print_center -ama 'UDPserver Binary by Raju Mbtunnel'
 	print_center -ama 'UDPclient Android SocksIP'
 	msg -bar
   

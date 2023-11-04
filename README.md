@@ -10,6 +10,6 @@ UDPserver Binary by Mbtunnel :https://wa.link/fykuuz
 
 UDPclient Android SocksIP :point_right: [AQUI](https://play.google.com/store/apps/details?id=com.newtoolsworks.sockstunnel)
 
-para colaborar con la traduccion en su idioma, contactar con :point_right: [@Raju](https://t.me/murshidbd)
+para colaborar con la traduccion en su idioma, contactar con :point_right: [@MbTunnel](https://t.me/murshidbd)
 
-To collaborate with the translation in your language, contact :point_right: [@Raju](https://t.me/murshidbd)
+To collaborate with the translation in your language, contact :point_right: [@MbTunnel](https://t.me/murshidbd)

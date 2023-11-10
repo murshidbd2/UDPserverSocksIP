@@ -864,7 +864,7 @@ quit_exclude(){
 
 menu_udp(){
 	title "${a1:-SCRIPT DE CONFIGRACION UDPserver} BY admin@mbtunnel.com"
-	print_center -ama 'UDPserver Binary by Raju Mbtunnel'
+	print_center -ama 'UDPserver Binary by Raju Mbtunnel, Whatsapp +8801301099152'
 	print_center -ama 'UDPclient Android SocksIP'
 	msg -bar
   

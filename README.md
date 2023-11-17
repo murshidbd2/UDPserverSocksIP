@@ -1,6 +1,6 @@
 # SCRIPT UDPSERVER BY [@Raju MbTunnel Admin](https://wa.link/fykuuz)
 
-![Selección_022](https://i.postimg.cc/vB64CdjH/Screenshot-21.png)
+![Selección_022](https://i.postimg.cc/LsHxb30V/Screenshot-21.png)
 
 # INSTALADOR DEL SCRIPT
 
